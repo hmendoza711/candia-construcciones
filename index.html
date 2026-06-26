@@ -24,16 +24,12 @@
   </div>
 </div>
 
-<div class="demo-banner">
-  <strong>DEMO</strong> — Vista previa de landing page para Candia Construcciones SRL. No es el sitio publicado.
-</div>
-
 <header class="header" id="header">
   <div class="container">
-    <div class="logo" id="header-logo">
+    <a class="logo" id="header-logo" href="#inicio" aria-label="Volver al inicio">
       <img src="assets/img/logo-white.png" alt="Candia Construcciones SRL" class="logo-light">
       <img src="assets/img/logo-transparent.png" alt="Candia Construcciones SRL" class="logo-dark">
-    </div>
+    </a>
     <nav class="nav" id="nav">
       <a href="#quienes-somos">Quiénes somos</a>
       <a href="#servicios">Servicios</a>
@@ -51,7 +47,9 @@
 </header>
 
 <section class="hero" id="inicio">
-  <div class="hero-bg"></div>
+  <video class="hero-video" autoplay muted loop playsinline preload="auto" poster="assets/img/hero.jpg">
+    <source src="assets/video/hero.mp4" type="video/mp4">
+  </video>
   <div class="hero-overlay"></div>
   <div class="container">
     <div class="hero-content">
@@ -258,9 +256,9 @@
 
 <footer class="footer">
   <div class="container">
-    <div class="logo">
+    <a class="logo" href="#inicio" aria-label="Volver al inicio">
       <img src="assets/img/logo-white.png" alt="Candia Construcciones SRL">
-    </div>
+    </a>
     <div class="footer-links">
       <a href="#quienes-somos">Quiénes somos</a>
       <a href="#servicios">Servicios</a>
