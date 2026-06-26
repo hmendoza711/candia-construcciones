@@ -29,8 +29,8 @@ function startIntro() {
 
 if (canAnimate) {
   // Página visible: mostramos el preloader y arrancamos la intro
-  window.addEventListener('load', () => setTimeout(startIntro, 700));
-  setTimeout(startIntro, 2800); // red de seguridad
+  window.addEventListener('load', () => setTimeout(startIntro, 1700));
+  setTimeout(startIntro, 3800); // red de seguridad
 } else if (preloader) {
   // Pestaña en segundo plano: sin intro, mostramos todo de una
   preloader.style.display = 'none';
