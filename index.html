@@ -267,12 +267,12 @@
         </div>
       </div>
 
-      <form class="contact-form reveal" onsubmit="return false;">
-        <input type="text" placeholder="Nombre y apellido" required>
-        <input type="text" placeholder="Teléfono" required>
-        <textarea rows="4" placeholder="Contanos sobre tu proyecto"></textarea>
+      <form class="contact-form reveal" id="contact-form">
+        <input type="text" name="nombre" placeholder="Nombre y apellido" required>
+        <input type="text" name="telefono" placeholder="Teléfono" required>
+        <textarea rows="4" name="mensaje" placeholder="Contanos sobre tu proyecto"></textarea>
         <button type="submit" class="btn btn--primary">Enviar consulta</button>
-        <p class="form-note">Formulario de demostración — no envía datos reales.</p>
+        <p class="form-note">Se abrirá WhatsApp con tu consulta lista para enviar.</p>
       </form>
     </div>
   </div>

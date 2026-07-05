@@ -55,6 +55,23 @@ if (rotator && canAnimate) {
   }
 }
 
+// --- Formulario de contacto -> WhatsApp ---
+const contactForm = document.getElementById('contact-form');
+if (contactForm) {
+  contactForm.addEventListener('submit', (e) => {
+    e.preventDefault();
+    const nombre = contactForm.nombre.value.trim();
+    const telefono = contactForm.telefono.value.trim();
+    const mensaje = contactForm.mensaje.value.trim();
+
+    let texto = `Hola, mi nombre es ${nombre}.\nTeléfono: ${telefono}`;
+    if (mensaje) texto += `\n\n${mensaje}`;
+
+    const url = `https://wa.me/543413145562?text=${encodeURIComponent(texto)}`;
+    window.open(url, '_blank', 'noopener');
+  });
+}
+
 // --- Reveal de secciones al hacer scroll ---
 const revealEls = document.querySelectorAll('.reveal');
 if ('IntersectionObserver' in window) {
