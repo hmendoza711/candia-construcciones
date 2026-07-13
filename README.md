@@ -26,7 +26,7 @@ assets/
   js/script.js                Header sticky, preloader, rotador de palabras, reveal on scroll,
                                envío del formulario de contacto a WhatsApp
   img/
-    logo*.png                 Variantes del logo (blanco, transparente, sólido)
+    logo*.png                 Variantes del logo (blanco, transparente)
     hero.jpg, about-stock.jpg Imágenes institucionales
     obra-<nombre>-<n>.jpg     Fotos de obras, agrupadas por nombre de obra
   video/hero.mp4              Video de fondo del hero
@@ -34,8 +34,8 @@ assets/
 
 ### Obras cargadas actualmente
 - **Maipú 1433** — 2 fotos (`obra-maipu-1/2.jpg`)
-- **Fluvial** — 2 fotos (`obra-fluvial-1/2.jpg`, se usa 1)
-- **Lote 31, Los Pasos** — 2 fotos (`obra-pasos-1/2.jpg`, se usa 1)
+- **Fluvial** — 1 foto (`obra-fluvial-1.jpg`)
+- **Lote 31, Los Pasos** — 1 foto (`obra-pasos-2.jpg`)
 - **La Paz** — 4 fotos en collage (`obra-lapaz-1..4.jpg`)
 - **Ricchieri** — 4 fotos en collage (`obra-ricchieri-1..4.jpg`)
 
